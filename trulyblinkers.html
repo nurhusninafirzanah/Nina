@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik Glitch">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Single Day">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carattere">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f9ade1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 65px;
+  text-align: center;
+  background-image: url('image/homepage_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 1200px 300px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: hsl(324, 95%, 75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #e8c6f7;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card2 {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.card3 {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e8c6f7;
+  margin-top: 20px;
+}
+
+/* Fonts to use */
+
+.mainfont{
+    font-family: "Coiny", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.mlbbfont{
+    font-family: "Rubik Glitch", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+}
+
+.subfont{
+    font-family: "Yeseva One", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+    text-align: center;
+    background-color: #e8c6f7;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.subfont2{
+    font-family: "Single Day", sans-serif;
+    color: #000000;
+}
+
+.subfont3{
+    font-family: "Carattere", sans-serif;
+    font-size: 30px;
+    color: #373737;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.desc {
+  border: 2px solid rgb(223, 69, 174);
+  border-radius: 12px;
+  padding: 5px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    
+<div class="header">
+    <h1 class="mainfont">Always a Truly Blinkers</h1>
+  </div>
+  
+  <div class="topnav">
+    <a href="index.html"><b>Home Page</b></a>
+    <a href="aboutme.html"><b>About Me</b></a>
+    <a href="trulyblinkers.html"><b>Truly Blinkers</b></a>
+    <a href="mlbb.html"><b>MLBB</b></a>
+  </div>
+
+<!---- Blink Book Introduction and pictures ---->
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2 class="subfont">Introduction to Blink Book</h2>
+           
+                <img src="image/trulyblinker/blinkbook.png" style="float: left;" hspace="30" width="200">
+               <p>
+                <ul>
+                    <li class="subfont2">Ain Maisarah as the founder</li>
+                    <li class="subfont2">Blinkers are the name given for fans</li>
+                    <li class="subfont2">Blink Book has been operated since 2011</li>
+                    <li class="subfont2">Blink Book is a book editing and publishing business</li>
+                    <li class="subfont2">Blink Book also have a second company named Blank Book</li>
+                </ul>
+            </p>  
+          </div>
+
+          <!---- My journey as a Truly Blinkers ---->
+              <div class="card2">
+                <h2 class="subfont">Truly Blinkers Journey</h2>
+
+                    <img src="image/trulyblinker/pbakl2015.jpg" style="float: left;border-style: outset" hspace="30" width="200" height="150">
+                    <p>
+                        <ul>
+                            <li class="subfont2">My first time going to PBAKL in 2015</li>
+                            <li class="subfont2">It was first time meeting Ain Maisarah</li>
+                            <li class="subfont2">I was 12 years old</li>
+                            <li class="subfont2">The theme of the booth is gold and black</li>
+                            <li class="subfont2">I was very nervous and did not talk that much because I was very shy at the moment</li>
+                        </ul>
+                    </p>  
+            </div>
+
+            <div class="card2">
+                    <img src="image/trulyblinker/pbakl2016.jpg" style="float: left;border-style: outset" hspace="30" width="200">
+                    <p>
+                        <ul>
+                            <li class="subfont2">This was my second year of going to PBAKL in 2016</li>
+                            <li class="subfont2">I was 13 years old at that time</li>
+                            <li class="subfont2">I brought my friends to the PBAKL</li>
+                            <li class="subfont2">The theme of the booth is traveling</li>
+                            <li class="subfont2">I started to be more active at that year and I started to collect every series</li>
+                        </ul>
+                    </p>  
+            </div>
+
+            <div class="card2">
+                    <img src="image/trulyblinker/pbakl2017.jpg" style="float: left;border-style: outset" hspace="30" width="200">
+                    <p>
+                        <ul>
+                            <li class="subfont2">This was my third year in the row of going to PBAKL in 2017</li>
+                            <li class="subfont2">At that time, the writers started to know me</li>
+                            <li class="subfont2">The most fun moment is they sang a Happy Birthday to me for my birthday</li>
+                            <li class="subfont2">The theme of the booth is 'Back to School'</li>
+                            <li class="subfont2">I was very excited attending that year PBAKL but at the same time, I was a bit sad that I do not have time to spend there because of my mom friend</li>
+                        </ul>
+                    </p>  
+              </div>
+
+              <div class="card2">
+                    <img src="image/trulyblinker/blinksleepover1.jpg" style="float: left;border-style: outset" hspace="30" width="200">
+                    <p>
+                        <ul>
+                            <li class="subfont2">In 2016, Blink Book has created an event for the fans</li>
+                            <li class="subfont2">The event is called 'Blink Sleepover'</li>
+                            <li class="subfont2">This event for create good relationship between the writer and the readers</li>
+                            <li class="subfont2">It was a fun and excited experience</li>
+                            <li class="subfont2">Lastly this event were created for 3 years and I attend every Blink Sleepover</li>
+                        </ul>
+                    </p>  
+              </div>
+              
+              <div class="card2">
+                    <img src="image/trulyblinker/bookcollection1.jpg" style="float: left;border-style: outset" hspace="30" width="200">
+                    <p>
+                        <ul>
+                            <li class="subfont2">My brother, Apai volunter to organize the books and took pictures of it</li>
+                            <li class="subfont2">I started to complete some series during the year 2016</li>
+                            <li class="subfont2">I did not expect to collect this much on a short time</li>
+                            <li class="subfont2">After collecting this, i felt in love with Blink Book even deeper</li>
+                        </ul>
+                    </p>  
+              </div>
+                            
+              <div class="card3">
+                    <img src="image/trulyblinker/bookcollectionnow.jpg" style="float: left;border-style: outset" hspace="30" width="220">
+                    <p>
+                        <ul>
+                            <li class="subfont2">This is the current picture of my Blink Book collection</li>
+                            <li class="subfont2">The book has been added time by time</li>
+                            <li class="subfont2">The shelve were bought in 2017 after my second attend to Blink Sleepover 2.0</li>
+                            <li class="subfont2">In the future, I probaly will upgrade my shelve and make it more admirable</li>
+                        </ul>
+                    </p>  
+              </div>
+            </div>
+
+    <div class="rightcolumn">
+        <div class="card">
+          <h2 class="subfont">Content:</h2>
+          <p>
+            <ul>
+            <li class="subfont2">Introducing Blink Book</li>
+            <li class="subfont2">Truly Blinkers Journey</li>
+          </ul>
+          </p>
+        </div>
+
+    <div class="card">
+        <h2 class="subfont">Play the song!</h2>
+        <p class="subfont2">Enjoy it while scrolling my website!</p>
+        <video width="320" height="240" controls>
+          <source src="video/blinksong.mp4" type="video/mp4">
+          <source src="video/blinksong.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        </div>
+
+        <div class="card">
+            <h2 class="subfont">Latest picture:</h2>
+            <img src="image/trulyblinker/pbakl2023.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+            <p class="subfont2"> PBAKL 2023</p>
+        </div>
+
+        <div class="card">
+            <h3 class="subfont">My Social Media</h3>
+            <p class="subfont2">These are the official social media of Blink Book. Click these links to update with Blink Book news.</p>
+                <a href="https://www.instagram.com/blinkbook?igsh=NDRpbWltbWI4eHl0"><img src="image/insta_icon.jpg" alt="Instagram Link" style="width:42px;height:42px"a>
+                <a href="https://www.tiktok.com/@blinkblink.my?_t=8ig0zNMqojq&_r=1"><img src="image/tiktok_icon.jpg" alt="Instagram Link" style="width:42px;height:42px"></a>
+                <a href="https://www.facebook.com/AinMaisarah.Novelis?mibextid=kFxxJD"><img src="image/facebook_icon.jpg" alt="Facebook Link" style="width:42px;height:42px"></a>
+          </div>
+      </div>
+      </div>
+
+      <div class="footer">
+        <h4><i>This website is build for assignment IMD311 &copy : Madam Seri Intan Idayu Binti Shshrul Asari</i></h4>
+      </div>
+      
+    </body>
+    </html>
+    

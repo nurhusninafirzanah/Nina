@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik Glitch">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Single Day">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carattere">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f9ade1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background-image: url('image/homepage_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1200px 300px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: hsl(324, 95%, 75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #e8c6f7;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e8c6f7;
+  margin-top: 20px;
+}
+
+/* Fonts to use */
+
+.mainfont{
+    font-family: "Coiny", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.mlbbfont{
+    font-family: "Rubik Glitch", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+}
+
+.subfont{
+    font-family: "Yeseva One", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+}
+
+.subfont2{
+    font-family: "Single Day", sans-serif;
+    color: #000000;
+}
+
+.subfont3{
+    font-family: "Carattere", sans-serif;
+    font-size: 30px;
+    color: #373737;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 class="mainfont">Welcome to Mew World!</h1>
+  <p class="subfont3"><i>"Keep your mind as a Happy Place!"</i></p>
+</div>
+
+<div class="topnav">
+  <a href="index.html"><b>Home Page</b></a>
+  <a href="aboutme.html"><b>About Me</b></a>
+  <a href="trulyblinkers.html"><b>Truly Blinkers</b></a>
+  <a href="mlbb.html"><b>MLBB</b></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 class="subfont">Daily Qoutes</h2>
+      <img src="image/qoute.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+      <img src="image/catpaws.jpg" alt="Cute qoute" style="width:299px;height:auto;padding:10px;border-style: outset">
+      <img src="image/mewsleep.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+      <img src="image/qoute2.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+    </div>
+  </div>
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 class="subfont">Content:</h2>
+      <p>
+        <ul>
+        <li class="subfont2">Get to know me!</li>
+        <li class="subfont2">Always a Truly Blinkers</li>
+        <li class="subfont2">Welcome to Mobile Legends</li>
+      </ul>
+      </p>
+    </div>
+    <div class="card">
+      <h2 class="subfont">Play the song!</h2>
+      <p class="subfont2">Enjoy it while scrolling my website!</p>
+      <video width="320" height="240" controls>
+        <source src="video/supershy_hp.mp4" type="video/mp4">
+        <source src="video/supershy_hp.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h4><i>This website is build for assignment IMD311 &copy : Madam Seri Intan Idayu Binti Shshrul Asari</i></h4>
+</div>
+
+</body>
+</html>
+
+

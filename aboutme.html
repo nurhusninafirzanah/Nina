@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yeseva One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Coiny">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik Glitch">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Single Day">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carattere">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f9ade1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 65px;
+  text-align: center;
+  background-image: url('image/homepage_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 1200px 300px;  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: hsl(324, 95%, 75%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #e8c6f7;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 65%;
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 35%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #e8c6f7;
+  margin-top: 20px;
+}
+
+/* Fonts to use */
+
+.mainfont{
+    font-family: "Coiny", sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.mlbbfont{
+    font-family: "Rubik Glitch", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+}
+
+.subfont{
+    font-family: "Yeseva One", sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #e8c6f7;
+    text-align: center;
+    background-color: #e8c6f7;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.subfont2{
+    font-family: "Single Day", sans-serif;
+    color: #000000;
+}
+
+.subfont3{
+    font-family: "Carattere", sans-serif;
+    font-size: 30px;
+    color: #373737;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.desc {
+  border: 2px solid rgb(223, 69, 174);
+  border-radius: 12px;
+  padding: 5px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+    
+<div class="header">
+    <h1 class="mainfont">Get to know me!</h1>
+
+  </div>
+  
+  <div class="topnav">
+    <a href="index.html"><b>Home Page</b></a>
+    <a href="aboutme.html"><b>About Me</b></a>
+    <a href="trulyblinkers.html"><b>Truly Blinkers</b></a>
+    <a href="mlbb.html"><b>MLBB</b></a>
+  </div>
+
+<!---- My Backgrond story and my pictures ---->
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2 class="subfont">My Background Story</h2>
+            <h4 style="text-align: justify;">
+                <img src="image/aboutme/myimage1.jpg" style="float: left;" hspace="30" width="150">
+                <p><pre>Name         : <b>Nur Husnina Firzanah Binti Azaha</b></pre></p>
+                <p><pre>Nickname     : <b>Nina Mew</b></pre></p>
+                <p><pre>Student ID   : <b>2021869494</b></pre></p>
+                <p><pre>Birth Date   : <b>5 May 2003</b></pre></p>
+                </h4>
+                <img src="image/aboutme/myimage2.jpg" alt="Seri Kelana Building" style="width:200px;height:auto;padding:10px;border-style: outset">
+                <img src="image/aboutme/image8.jpg" alt="Seri Kelana Building" style="width:200px;height:auto;padding:10px;border-style: outset">
+                <img src="image/aboutme/image6.jpg" alt="Seri Kelana Building" style="width:200px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/image4.jpg" alt="Picture Year 6" style="width:200px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/myimage3.jpg" alt="UPSR result" style="width:200px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/image5.jpg" alt="With my best friend" style="width:200px;height:auto;padding:10px;border-style: outset">
+          </div>
+
+          <!---- My education background and pictures ---->
+              <div class="card">
+                <h2 class="subfont">My Education Background</h2>
+                <h4 style="text-align: justify;">
+                    <img src="image/aboutme/sksk.jpg" style="float: left;" hspace="30" width="100">
+                <p><pre>Primary School       : <b>Sekolah Rendah Seri Kelana</b></pre></p>
+                <p><pre>Location             : <b>Seremban, Negeri Sembilan</b></pre></p>
+                <p><pre>UPSR Result          : <b>4A 1B</b></pre></p>
+                <p><pre>UPKK Result          : <b>4A 4B</b></pre></p>
+               </h4>
+            <img src="image/aboutme/skskbuilding.jpg" alt="Seri Kelana Building" style="width:300px;height:200px;padding:10px;border-style: outset">
+            <img src="image/aboutme/year6.jpg" alt="Picture Year 6" style="width:299px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/upsr.jpg" alt="UPSR result" style="width:auto;height:300px;;padding:10px;border-style: outset">
+            <img src="image/aboutme/withallya.jpg" alt="With my best friend" style="width:auto;height:300px;padding:10px;border-style: outset">
+            <img src="image/aboutme/littleme.jpg" alt="Seri Kelana Building" style="width:auto;height:300px;padding:10px;border-style: outset">
+            </div>
+
+            <div class="card">
+                <h4 style="text-align: justify;">
+                    <img src="image/aboutme/redza.jpg" style="float: left;" hspace="30" width="100">
+                <p><pre><br>Secondary School     : <b>Sekolah Menengah Kebangsaan Dato' Haji Mohd Redza</b></pre></p>
+                <p><pre>Location             : <b>Seremban, Negeri Sembilan</b></pre></p>
+                <p><pre>PT3 Result           : <b>7A 2B 1C 1D</b></pre></p>
+                <p><pre>SPM Result           : <b>6A 3B</b></pre></p>
+            </h4>
+            <img src="image/aboutme/form1.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/pt3.jpg" alt="Cute qoute" style="width:299px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/spm.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+            <img src="image/aboutme/outing.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+            </div>
+
+            <div class="card">
+                <h4 style="text-align: justify;">
+                    <img src="image/aboutme/uitm.jpg" style="float: left;" hspace="30" width="150">
+                <p><pre><br>Diploma              : <b>Universiti Teknologi Mara (UiTM)</b></pre></p>
+                <p><pre>Course               : <b>Information Management</b></pre></p>
+                <p><pre>Location             : <b>Campus Rembau</b></pre></p>
+                    </h4>
+                </h4>
+                <img src="image/aboutme/sem5.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+                <img src="image/aboutme/dekan.jpg" alt="Cute qoute" style="width:299px;height:auto;padding:10px;border-style: outset">
+                <img src="image/aboutme/mygirls.jpg" alt="Cute qoute" style="width:300px;height:auto;border-style: outset;padding:10px;">
+                <img src="image/aboutme/jiran.jpg" alt="Cute qoute" style="width:300px;height:auto;padding:10px;border-style: outset">
+              </div>
+            </div>
+
+    <div class="rightcolumn">
+        <div class="card">
+          <h2 class="subfont">Content:</h2>
+          <p>
+            <ul>
+            <li class="subfont2">My Background Story</li>
+            <li class="subfont2">My Education Background</li>
+            <li class="subfont2">My Mini Gallery</li>
+          </ul>
+          </p>
+        </div>
+
+    <div class="card">
+        <h2 class="subfont">Play the song!</h2>
+        <p class="subfont2">Enjoy it while scrolling my website!</p>
+        <video width="320" height="240" controls>
+          <source src="video/aboutmesong.mp4" type="video/mp4">
+          <source src="video/aboutmesong.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+        </div>
+        <div class="card">
+            <h3 class="subfont">My Social Media</h3>
+            <p class="subfont2">These are my social media that i have actively used. 
+                If you are interested to know about my update throught out my life,
+                 you can click these links and follow me!</p>
+                <a href="https://instagram.com/iam_ninamew?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><img src="image/insta_icon.jpg" alt="Instagram Link" style="width:42px;height:42px;"></a>
+                <a href="https://www.tiktok.com/@iam_nina05?_t=8gkqhdlcaO2&_r=1"><img src="image/tiktok_icon.jpg" alt="TikTok Link" style="width:42px;height:42px;"></a>
+                <a href="mailto:2021869494@uitm.edu.my, anhnurhusninafirzanah@gmail.com?subject=Problem Statement"><img src="image/gmail_icon.jpg" alt="Gmail Link" style="width:42px;height:42px;"></a>
+          </div>
+      </div>
+      </div>
+
+      <div class="footer">
+        <h4><i>This website is build for assignment IMD311 &copy : Madam Seri Intan Idayu Binti Shshrul Asari</i></h4>
+      </div>
+      
+    </body>
+    </html>
+    
